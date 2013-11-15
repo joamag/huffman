@@ -79,6 +79,6 @@ int main(int argc, char *argv[]) {
     delta_f = ((float) delta) / CLOCKS_PER_SEC;
 
     printf("Decoded '%s' into '%s' in %.2f seconds\n", out_path, dec_path, delta_f);
-    
+
     exit(0);
 }
