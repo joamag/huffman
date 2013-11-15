@@ -1,6 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <viriatum_commons/viriatum_commons.h>
+#include "huffman.h"
 
 int main(int argc, char *argv[]) {
     char *in_path;
