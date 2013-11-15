@@ -21,7 +21,7 @@
             OutputDirectory="$(SolutionDir)..\..\bin\$(ProjectName)\i386\win32\$(ConfigurationName)"
             IntermediateDirectory="$(ProjectName)\$(ConfigurationName)"
             ConfigurationType="1"
-            CharacterSet="1"
+            CharacterSet="0"
             >
             <Tool
                 Name="VCPreBuildEventTool"
@@ -48,7 +48,7 @@
                 UsePrecompiledHeader="0"
                 ProgramDataBaseFileName="$(TargetDir)$(TargetName).pdb"
                 WarningLevel="3"
-                DebugInformationFormat="3"
+                DebugInformationFormat="4"
                 CompileAs="1"
             />
             <Tool
@@ -62,11 +62,9 @@
             />
             <Tool
                 Name="VCLinkerTool"
-                LinkIncremental="1"
-                IgnoreDefaultLibraryNames="LIBCMT"
+                LinkIncremental="2"
                 GenerateDebugInformation="true"
                 SubSystem="1"
-                LinkTimeCodeGeneration="1"
                 TargetMachine="1"
             />
             <Tool
@@ -96,7 +94,7 @@
             OutputDirectory="$(SolutionDir)..\..\bin\$(ProjectName)\i386\win32\$(ConfigurationName)"
             IntermediateDirectory="$(ProjectName)\$(ConfigurationName)"
             ConfigurationType="1"
-            CharacterSet="1"
+            CharacterSet="0"
             WholeProgramOptimization="1"
             >
             <Tool
