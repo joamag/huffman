@@ -1,3 +1,6 @@
+install: all
+	cp huffman /usr/bin
+
 all: huffman.o
 	gcc -O3 huffman.o -lviriatum -o huffman
 
