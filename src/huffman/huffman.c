@@ -12,7 +12,7 @@ int main(int argc, char *argv[]) {
     float delta_f;
 
     if(argc < 2) {
-        printf("Usage: huffman <input> [output]\n");
+        printf("usage: huffman <input> [output]\n");
         exit(1);
     }
 
